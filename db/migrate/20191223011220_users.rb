@@ -1,5 +1,5 @@
 class Users < ActiveRecord::Migration[5.1]
-  def change :user do |t|
+  def change :users do |t|
     t.string :username
     t.string :password
     t.integer :balance
